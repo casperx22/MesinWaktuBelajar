@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesin Waktu Belajar | Timeline Interaktif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mesin Waktu Belajar ⏳</h1>
+        <p>Geser tuas di bawah untuk menjelajahi Sejarah Indonesia!</p>
+    </header>
+
+    <div class="time-machine-container">
+        <div id="content-display" class="content-display">
+            <h2 id="era-title">Pramodern (Sebelum Abad ke-15)</h2>
+            <p id="era-description">Selamat datang! Di era ini, kamu akan menemukan kerajaan-kerajaan besar dan perkembangan budaya awal di Nusantara.</p>
+            <div id="era-image-placeholder">[Gambar atau Ilustrasi Era Pramodern]</div>
+        </div>
+
+        <div class="timeline-slider-wrapper">
+            <input type="range" min="0" max="3" value="0" step="1" id="timeline-slider">
+            <div class="slider-labels">
+                <span>Era 1</span>
+                <span>Era 2</span>
+                <span>Era 3</span>
+                <span>Era 4</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
